@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh auto;
+    width: 50vw;
+    border: 1px solid #f2f2f2;
+    padding: 2vh;
+    border-radius: 5px;
+}
+.image{
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.hello{
+    background: red;
+    
+}
