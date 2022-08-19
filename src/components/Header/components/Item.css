@@ -1,0 +1,7 @@
+.nav-item{
+    text-decoration: none;
+    color: #111827;
+    font-size: 1.33rem;
+    margin-left: 20px;
+}
+.nav-item:hover{}
