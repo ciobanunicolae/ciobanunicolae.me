@@ -1,7 +1,9 @@
-import "./Greeting.css";
+import styled from "./Greeting.module.css";
 
-export const Greeting = () => {
-  return (
-    <h1 className="presentation">I'm Ciobanu Nicolae, a web developer based in Sibiu, Romania.</h1>
-  );
-};
+export const Greeting = () => (
+  <>
+    <h1 className={styled.text}>
+      I'm Ciobanu Nicolae, a web developer based in Sibiu, Romania.
+    </h1>
+  </>
+);

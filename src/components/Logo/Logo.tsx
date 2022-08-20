@@ -1,5 +1,7 @@
-import "./Logo.css";
+import styled from "./Logo.module.css";
 
-export const Logo = () => {
-  return <h1 className="logo">NC</h1>;
-};
+export const Logo = () => (
+  <>
+    <h1 className={styled.logo}>NC</h1>
+  </>
+);
