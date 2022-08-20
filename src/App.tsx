@@ -1,4 +1,5 @@
 import { Greeting, Logo, Network, Skills } from "./components";
+
 import "./App.css";
 
 export const App = () => {
@@ -6,10 +7,8 @@ export const App = () => {
     <div className="app">
       <Logo />
       <Greeting />
-      <div className="container">
-        <Network />
-        <Skills />
-      </div>
+      <Network />
+      <Skills />
     </div>
   );
 };
