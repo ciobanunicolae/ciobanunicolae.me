@@ -1,13 +1,15 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Header } from "./components";
-import { Home } from "./routes";
+import { Greeting, Logo, Network, Skills } from "./components";
+import "./App.css";
+
 export const App = () => {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <div className="app">
+      <Logo />
+      <Greeting />
+      <div className="container">
+        <Network />
+        <Skills />
+      </div>
+    </div>
   );
 };

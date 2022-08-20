@@ -1,0 +1,10 @@
+.app{
+    max-width: 80vw;
+    margin: 0 auto;
+    color: #0f0e17;
+}
+.container{
+    display: flex;
+    
+}
+
