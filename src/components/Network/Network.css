@@ -1,8 +1,8 @@
 .network{
     display: flex;
     flex-direction: column;
-    margin: 13vh 0;
-    margin-right: 13vw;
+    width: 100%; 
+    padding: 20px;
 }
 
 .gray{
@@ -10,6 +10,7 @@
     letter-spacing: 3px;
     font-size: 0.75rem;
     margin-bottom: 10px;
+    
 }
 a{
     text-decoration: none;
@@ -19,5 +20,4 @@ a{
 }
 a:hover{
     text-decoration:underline
-
 }

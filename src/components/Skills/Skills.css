@@ -1,7 +1,8 @@
 .skills{
     display: flex;
     flex-direction: column;
-    margin: 13vh 0;
+    width: 100%;
+    padding: 20px;
 }
 .gray{
     color: #a9a9a9;
