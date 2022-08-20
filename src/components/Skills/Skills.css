@@ -1,0 +1,15 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin: 13vh 0;
+}
+.gray{
+    color: #a9a9a9;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+p{
+    margin: 3px 0;
+    max-width: fit-content;
+}

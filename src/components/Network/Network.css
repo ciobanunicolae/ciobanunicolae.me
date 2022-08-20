@@ -1,0 +1,23 @@
+.network{
+    display: flex;
+    flex-direction: column;
+    margin: 13vh 0;
+    margin-right: 13vw;
+}
+
+.gray{
+    color: #a9a9a9;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #0f0e17;
+    margin: 3px 0;
+    max-width: fit-content;
+}
+a:hover{
+    text-decoration:underline
+
+}

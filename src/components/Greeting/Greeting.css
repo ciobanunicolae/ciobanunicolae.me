@@ -1,18 +1,7 @@
-.container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5vh auto;
-    width: 50vw;
-    border: 1px solid #f2f2f2;
-    padding: 2vh;
-    border-radius: 5px;
-}
-.image{
-    border-radius: 20px;
-    margin: 0 auto;
-}
-.hello{
-    background: red;
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.presentation{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
 }
