@@ -1,7 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 .presentation{
     font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
     margin-top: 10vh;
+  background-image: linear-gradient(
+  80deg,
+  hsl(240deg 88% 26%) 0%,
+  hsl(248deg 89% 28%) 5%,
+  hsl(257deg 88% 30%) 11%,
+  hsl(265deg 89% 32%) 16%,
+  hsl(273deg 90% 34%) 21%,
+  hsl(282deg 89% 36%) 26%,
+  hsl(290deg 90% 38%) 30%,
+  hsl(298deg 90% 40%) 35%,
+  hsl(307deg 91% 42%) 40%,
+  hsl(315deg 90% 44%) 45%,
+  hsl(323deg 91% 46%) 49%,
+  hsl(332deg 91% 48%) 54%,
+  hsl(340deg 91% 50%) 59%,
+  hsl(348deg 92% 52%) 63%,
+  hsl(357deg 92% 54%) 68%,
+  hsl(5deg 92% 56%) 72%,
+  hsl(13deg 93% 58%) 77%,
+  hsl(22deg 93% 60%) 81%,
+  hsl(30deg 93% 62%) 86%,
+  hsl(38deg 94% 64%) 91%,
+  hsl(47deg 93% 65%) 95%,
+  hsl(55deg 94% 67%) 100%
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
