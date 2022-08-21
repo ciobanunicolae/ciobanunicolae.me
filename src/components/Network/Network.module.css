@@ -1,32 +1,22 @@
-@media only screen 
-  and (min-device-width: 443px) {
-    span.category{
-        font-size: 1.5rem;
-        margin-top: 8rem;
-    }
-    .network>a{
-        font-size: 1.2rem;
-    }
-  }
+@import '@/vars.css';
+
 .network{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 3rem;   
+    margin: 0 auto;  
     align-items: center;
 
 }
 .category{
-    color: hsla(60, 100%, 100%, 1);
+    color: var(--white);
     letter-spacing: 0.15rem;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
     
 }
 a{
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-decoration: none;
-    color: hsla(214, 16%, 64%, 1);
+    color: var(--gray);
     padding: 0.3rem;
     max-width: fit-content;
 }

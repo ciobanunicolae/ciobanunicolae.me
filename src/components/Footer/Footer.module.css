@@ -1,13 +1,7 @@
-@media only screen 
-  and (min-device-width: 443px) {
-    .footer .copyright{
-        font-size: 1rem;
-        margin-top: 5rem;
-    }
-  }
+@import "@/vars.css";
 
 .footer{
-    background-color: hsla(240, 8%, 9%, 1);
+    background-color: var(--black);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     margin: 3rem 0;
@@ -16,7 +10,7 @@
 .copyright{
     font-size: 0.8rem;
     text-align: center;
-    color: hsla(214, 16%, 64%, 1);
+    color: var(--gray);
 }
 
 

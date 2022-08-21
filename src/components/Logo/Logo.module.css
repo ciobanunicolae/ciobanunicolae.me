@@ -1,7 +1,10 @@
+@import '@/vars.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 .logo{
     font-family: 'Calligraffitti', cursive;
     margin-top: 2rem;
+    height: 10vh;
     font-weight: 100;
-    color: hsla(60, 100%, 100%, 1);
+    color: var(--white);
 } 
