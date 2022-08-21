@@ -1,3 +1,13 @@
+@media only screen 
+  and (min-device-width: 443px) {
+    span.category{
+        font-size: 1.5rem;
+        margin-top: 8rem;
+    }
+    .network>a{
+        font-size: 1.2rem;
+    }
+  }
 .network{
     display: flex;
     flex-direction: column;

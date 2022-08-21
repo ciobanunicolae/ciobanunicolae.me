@@ -1,9 +1,22 @@
+@media only screen 
+  and (min-device-width: 443px) {
+    h1.text{
+        font-size: 2.5rem;;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 486px) {
+    h1.text{
+        font-size: 3rem;;
+    }
+  }
 
 .text{
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
     background-image: linear-gradient(
     80deg,
     hsl(240deg 88% 26%) 0%,
