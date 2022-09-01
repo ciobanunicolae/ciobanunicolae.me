@@ -1,0 +1,23 @@
+@import '@/vars.css';
+
+.navbar{
+    color: white;
+    position: static;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    top: 10%;
+    background-color: var(--logo);
+}
+.border{
+    background-color: var(--logo);
+}
+.active{ display: none;}
+.link{
+    font-size: 1.5rem;
+    padding: 10px;
+}
