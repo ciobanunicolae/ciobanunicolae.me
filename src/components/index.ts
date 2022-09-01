@@ -4,3 +4,4 @@ export * from "./Network/Network";
 export * from "./Skills/Skills";
 export * from "./Footer/Footer";
 export * from "./NotFound/NotFound";
+export * from "./Navbar/Navbar";
