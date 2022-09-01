@@ -1,11 +1,11 @@
-import { Greeting, Logo, Network, Skills } from "./components";
+import { Greeting, Network, Skills, Navbar } from "./components";
 
 import "./App.css";
 
 export const App = () => {
   return (
     <div className="app">
-      <Logo />
+      <Navbar/>
       <Greeting />
       <Network />
       <Skills />
