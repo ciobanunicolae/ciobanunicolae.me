@@ -3,8 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 .logo{
     font-family: 'Calligraffitti', cursive;
-    margin-top: 2rem;
-    height: 10vh;
     font-weight: 100;
-    color: var(--white);
+    color: var(--logo-color);
+    
 } 
+.border{
+    background-color: var(--logo);
+}
+.container{ 
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+    background-color: var(--logo);
+
+}
+.menu{
+    font-size: 2rem;
+    color: var(--logo-color);
+}

@@ -1,5 +1,7 @@
 :root {
   --black: hsla(240, 8%, 9%, 1);
   --white: hsla(60, 100%, 100%, 1);
-  --gray: hsla(214, 16%, 64%, 1);   
+  --gray: hsla(214, 16%, 64%, 1);  
+  --logo: hsla(240, 5%, 16%, 1); 
+  --logo-color: hsla(222, 50%, 69%, 1);
 }
