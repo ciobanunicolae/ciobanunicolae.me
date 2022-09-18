@@ -1,10 +1,10 @@
 import styled from "./Projects.module.css";
 
-export const Projects = () => (
-  <>
+export const Projects = () => {
+  return (
     <div className={styled.container}>
       <div className={styled.project} />
       <div className={styled.project} />
     </div>
-  </>
-);
+  );
+};
