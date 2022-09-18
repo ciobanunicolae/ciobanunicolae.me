@@ -1,4 +1,4 @@
-import { Greeting, Network, Skills, Navbar, Projects } from "../components/";
+import { Greeting, Network, Skills, Navbar, Projects } from "@/components";
 import useLocalStorage from "use-local-storage";
 import "./app.css";
 
