@@ -1,7 +1,12 @@
 :root {
-  --black: hsla(240, 8%, 9%, 1);
-  --white: hsla(60, 100%, 100%, 1);
-  --gray: hsla(214, 16%, 64%, 1);  
-  --logo: hsla(240, 5%, 16%, 1); 
-  --logo-color: hsla(222, 50%, 69%, 1);
+  --background-primary: hsl(240, 9%, 9%);
+  --background-secondary: hsl(240, 0%, 26%);
+  --text-primary: hsl(0, 0%, 98%);
+  --text-secondary: hsl(0, 0%, 64%);
+}
+[data-theme="dark"] {
+  --background-primary: hsl(0, 0%, 90%);
+  --background-secondary: hsl(0, 0%, 98%);
+  --text-primary: hsl(0, 0%, 15%);
+  --text-secondary: hsl(0, 0%, 45%);
 }

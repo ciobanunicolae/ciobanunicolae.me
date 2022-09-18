@@ -1,0 +1,14 @@
+@import "@/vars.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80vw;
+}
+.project {
+  height: 45vh;
+  margin-bottom: 5vh;
+  background-color: #c4c4c5;
+}

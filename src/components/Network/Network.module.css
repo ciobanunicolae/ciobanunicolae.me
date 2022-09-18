@@ -3,12 +3,12 @@
 .network{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;  
+    margin: 5vh auto;  
     align-items: center;
 
 }
 .category{
-    color: var(--white);
+    color: var(--text-primary);
     letter-spacing: 0.15rem;
     font-size: 1.5rem;
     
@@ -16,7 +16,7 @@
 a{
     font-size: 1rem;
     text-decoration: none;
-    color: var(--gray);
+    color: var(--text-secondary);
     padding: 0.3rem;
     max-width: fit-content;
 }

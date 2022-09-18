@@ -1,21 +1,20 @@
 @import "@/vars.css";
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 2rem;   
-    align-items: center;
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 2rem;
+  align-items: center;
 }
-.category{
-    color: var(--white);
-    letter-spacing: 0.15rem;
-    font-size: 1.5rem;
-    
+.category {
+  color: var(--text-primary);
+  letter-spacing: 0.15rem;
+  font-size: 1.5rem;
 }
-p{
-    font-size: 1rem;
-    color: var(--gray);
-    padding: 0.3rem;
-    max-width: fit-content;
+p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  padding: 0.3rem;
+  max-width: fit-content;
 }

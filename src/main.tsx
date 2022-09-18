@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App";
+import { App } from "@/app";
 import "./index.css";
-import { Footer, NotFound } from "./components";
+import {  NotFound } from "@/layout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         <Route path="/" element={<App />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </Router>
   </React.StrictMode>
 );

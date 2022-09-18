@@ -1,21 +1,19 @@
-@import '@/vars.css';
+@import "@/vars.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
-.logo{
-    font-family: 'Calligraffitti', cursive;
-    font-weight: 100;
-    color: var(--logo-color);
-    
-} 
-
-.container{ 
-    display: flex;
-    justify-content:space-between;
-    padding: 1rem;
-    background-color: var(--logo);
-
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+.logo {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 100;
+  color: var(--text-primary);
 }
-.menu{
-    font-size: 2rem;
-    color: var(--logo-color);
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--background-secondary);
+}
+.menu {
+  font-size: 2rem;
+  color: var(--text-primary);
 }
