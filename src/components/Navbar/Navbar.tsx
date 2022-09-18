@@ -15,7 +15,7 @@ export const Navbar = ({theme, toggleTheme}: NavbarProps) => {
   return (
     <>
       <div>
-        <Logo isOpen={isOpen} setIsOpen={setIsOpen} toggleMenu={toggleMenu} />
+        <Logo isOpen={isOpen} toggleMenu={toggleMenu} />
         <div className={`${styled.navbar} ${!isOpen && styled.active}`}>
           <a className={styled.link} href="#about">
             About
