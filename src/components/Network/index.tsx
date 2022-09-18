@@ -1,4 +1,4 @@
-import styled from "./Network.module.css";
+import styled from "./network.module.css";
 
 export const Network = () => (
   <>

@@ -1,4 +1,4 @@
-import styled from "./Skills.module.css";
+import styled from "./skills.module.css";
 
 export const Skills = () => {
   return (

@@ -1,4 +1,4 @@
-import styled from "./Navbar.module.css";
+import styled from "./navbar.module.css";
 import { Logo } from "@/components";
 import { BsSun, BsMoon } from "react-icons/bs";
 import * as React from "react";

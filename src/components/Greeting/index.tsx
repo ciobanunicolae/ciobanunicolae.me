@@ -1,4 +1,4 @@
-import styled from "./Greeting.module.css";
+import styled from "./greeting.module.css";
 
 export const Greeting = () => (
   <>

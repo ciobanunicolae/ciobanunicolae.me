@@ -1,4 +1,4 @@
-import styled from "./Logo.module.css";
+import styled from "./logo.module.css";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 type LogoProps = {
@@ -6,7 +6,7 @@ type LogoProps = {
   toggleMenu: () => void;
 };
 
-export const Logo = ({ isOpen, toggleMenu}: LogoProps) => {
+export const Logo = ({ isOpen, toggleMenu }: LogoProps) => {
   return (
     <>
       <div className={styled.container}>
