@@ -4,7 +4,6 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 type LogoProps = {
   isOpen: boolean;
   toggleMenu: () => void;
-  setIsOpen: (isOpen: boolean) => void;
 };
 
 export const Logo = ({ isOpen, toggleMenu}: LogoProps) => {
