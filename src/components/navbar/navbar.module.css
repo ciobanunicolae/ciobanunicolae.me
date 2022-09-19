@@ -1,5 +1,23 @@
 @import "@/vars.css";
 
+@media only screen 
+  and (min-device-width: 365px) {
+    div.navbar{
+      height: 60vh;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 450px) {
+    div.navbar{
+      height: 50vh;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 650px) {
+    div.navbar{
+      display: none;
+    }
+  }
 .navbar {
   position: static;
   display: flex;

@@ -3,4 +3,3 @@ export * from "./logo";
 export * from "./network";
 export * from "./skills";
 export * from "./navbar";
-export * from "./projects";

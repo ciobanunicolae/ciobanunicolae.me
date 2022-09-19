@@ -1,19 +1,21 @@
 @import "@/vars.css";
-
 @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+
 .logo {
   font-family: "Calligraffitti", cursive;
   font-weight: 100;
   color: var(--text-primary);
 }
-
 .container {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   background-color: var(--background-secondary);
+  height: 10vh;
 }
 .menu {
   font-size: 2rem;
   color: var(--text-primary);
 }
+@media only screen 
+  and (min-device-width: 650px) {.menu{display: none;}}

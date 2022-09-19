@@ -1,4 +1,4 @@
-import { Greeting, Network, Skills, Navbar, Projects } from "@/components";
+import { Greeting, Network, Skills, Navbar } from "@/components";
 import useLocalStorage from "use-local-storage";
 import "./app.css";
 
@@ -16,9 +16,10 @@ export const App = () => {
     <div className="app" data-theme={theme}>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Greeting />
-      <Projects />
-      <Skills />
-      <Network />
+      <div className="flex">
+        <Skills />
+        <Network />
+      </div>
     </div>
   );
 };

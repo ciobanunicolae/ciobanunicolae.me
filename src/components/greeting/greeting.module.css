@@ -1,12 +1,39 @@
-
-.text{
-    font-weight: 900;
-    font-size: 2.4rem;
-    text-align: center;
-    height: 80vh;
-    margin-top: 3rem;
-    background-image: linear-gradient(
-    80deg,hsl(240deg 88% 26%) 0%,
+@media only screen and (min-device-width: 365px) {
+  h1.text {
+   font-size: 2.5rem;
+   width: 80vw;
+  }
+}
+@media only screen and (min-device-width: 520px) {
+  h1.text {
+   font-size: 3rem;
+  }
+}
+@media only screen and (min-device-width: 620px) {
+  h1.text {
+   width: 60vw;
+   height: 50vh;
+  }
+}
+@media only screen and (min-device-width: 1000px) {
+  h1.text {
+   height: 60vh;
+   width: 50vw;
+   font-size: 3.5rem;
+   
+  }
+}
+.text {
+  width: 90vw;
+  align-self: center;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  height: 90vh;
+  margin-top: 3rem;
+  background-image: linear-gradient(
+    80deg,
+    hsl(240deg 88% 26%) 0%,
     hsl(248deg 89% 28%) 5%,
     hsl(257deg 88% 30%) 11%,
     hsl(265deg 89% 32%) 16%,
@@ -27,9 +54,9 @@
     hsl(30deg 93% 62%) 86%,
     hsl(38deg 94% 64%) 91%,
     hsl(47deg 93% 65%) 95%,
-    hsl(55deg 94% 67%) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    hsl(55deg 94% 67%) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -1,22 +1,25 @@
-@import '@/vars.css';
+@import "@/vars.css";
 
-.network{
-    display: flex;
-    flex-direction: column;
-    margin: 5vh auto;  
-    align-items: center;
-
+.network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
 }
-.category{
-    color: var(--text-primary);
-    letter-spacing: 0.15rem;
-    font-size: 1.5rem;
-    
+.category {
+  color: var(--text-primary);
+  letter-spacing: 0.15rem;
+  font-size: 1.5rem;
 }
-a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: var(--text-secondary);
-    padding: 0.3rem;
-    max-width: fit-content;
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  padding: 0.3rem;
+  max-width: fit-content;
+}
+@media only screen and (min-device-width: 620px) {
+  .network {
+    margin-top: 0;
+  }
 }

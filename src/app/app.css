@@ -1,4 +1,4 @@
-@import '@/vars.css';
+@import "@/vars.css";
 .app {
   font-family: "Montserrat", sans-serif;
   width: 100vw;
@@ -7,4 +7,14 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--background-primary);
+}
+@media only screen and (min-device-width: 620px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    width: 60vw;
+    margin-top: 20vh;
+  }
 }
