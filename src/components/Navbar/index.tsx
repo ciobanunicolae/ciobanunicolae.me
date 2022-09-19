@@ -20,14 +20,11 @@ export const Navbar = ({theme, toggleTheme}: NavbarProps) => {
           <a className={styled.link} href="#about">
             About
           </a>
-          <a className={styled.link} href="#about">
-            Projects
-          </a>
-          <a className={styled.link} href="#about">
-            Network
-          </a>
-          <a className={styled.link} href="#about">
+          <a className={styled.link} href="#skills">
             Skills
+          </a>
+          <a className={styled.link} href="#network">
+            Network
           </a>
           {theme == "dark" ? (
             <BsSun onClick={toggleTheme} className={styled.icon} />
