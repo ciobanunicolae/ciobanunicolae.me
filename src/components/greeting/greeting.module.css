@@ -1,26 +1,19 @@
 @media only screen and (min-device-width: 365px) {
   h1.text {
-   font-size: 2.5rem;
-   width: 80vw;
-  }
-}
-@media only screen and (min-device-width: 520px) {
-  h1.text {
-   font-size: 3rem;
+    font-size: 2.5rem;
+    width: 80vw;
   }
 }
 @media only screen and (min-device-width: 620px) {
   h1.text {
-   width: 60vw;
-   height: 30vh;
+    width: 60vw;
+    height: 30vh;
+    font-size: 2.5rem;
   }
 }
-@media only screen and (min-device-width: 1000px) {
+@media only screen and (min-device-width: 620px) {
   h1.text {
-   height: 30vh;
-   width: 50vw;
-   font-size: 3rem;
-   
+    font-size: 3rem;
   }
 }
 .text {
