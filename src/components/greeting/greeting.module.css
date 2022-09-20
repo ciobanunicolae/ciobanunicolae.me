@@ -12,14 +12,14 @@
 @media only screen and (min-device-width: 620px) {
   h1.text {
    width: 60vw;
-   height: 50vh;
+   height: 30vh;
   }
 }
 @media only screen and (min-device-width: 1000px) {
   h1.text {
-   height: 60vh;
+   height: 30vh;
    width: 50vw;
-   font-size: 3.5rem;
+   font-size: 3rem;
    
   }
 }
@@ -29,8 +29,8 @@
   font-weight: 900;
   font-size: 2rem;
   text-align: center;
-  height: 90vh;
-  margin-top: 3rem;
+  height: 80vh;
+  margin-top: 4rem;
   background-image: linear-gradient(
     80deg,
     hsl(240deg 88% 26%) 0%,

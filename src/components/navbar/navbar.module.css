@@ -31,6 +31,9 @@
 }
 .border {
   background-color: var(--background-secondary);
+  overflow: hidden;
+  line-height: 0;
+  height: 100%;
 }
 .active {
   display: none;

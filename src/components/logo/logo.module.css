@@ -9,9 +9,10 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0 2rem;
   background-color: var(--background-secondary);
-  height: 10vh;
+  height: 15vh;
+  align-items: center;
 }
 .menu {
   font-size: 2rem;
